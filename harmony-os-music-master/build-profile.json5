@@ -1,0 +1,56 @@
+{
+  "app": {
+    //    "signingConfigs": [
+    //      {
+    //        "name": "default",
+    //        "type": "HarmonyOS",
+    //        "material": {
+    //          "storePassword": "0000001D47284FA88AF7C50E4063BCFBD6977BF79EDB18F513073A911E2198260204CC60A2BB0B269CCDF7FDBA",
+    //          "certpath": "D:/HarmonyOS/项目证书/hhmusic.cer",
+    //          "keyAlias": "hhmusic",
+    //          "keyPassword": "0000001DED19D7923AEBDE35D6C4E4F73CA4306152811474E2A59032D677F105FA3EAAB7651E03C1018B84A9D2",
+    //          "profile": "D:/HarmonyOS/项目证书/hhmusicRelease.p7b",
+    //          "signAlg": "SHA256withECDSA",
+    //          "storeFile": "D:/HarmonyOS/项目证书/hhmusic.p12"
+    //        }
+    //      }
+    //    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.3(15)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": []
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

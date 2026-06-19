@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/RecentMusic",
+    "pages/DailyRecommend",
+    "pages/BannerDetail",
+  "pages/TutorialCardDetail",
+    "pages/MusicWidget"
+  ]
+}
